@@ -1,0 +1,140 @@
+/**/ /**/ /**/ /* GéNéRAL */ /**/ /**/ /**/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    color: #ea4f2e;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+    color: #f6bb20;
+}
+h3 {
+    font-size: 26px;
+    color: #0d72b9;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 14px;
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+a {
+    color: black;
+    font-weight: 700;
+}
+ul {
+
+}
+li {
+    font-size: 22px;
+}
+hr {
+    border: 2px dotted #FF5403;
+    width: 50%;
+    margin: auto;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/**/ /**/ /* HEADER */ /**/ /**/
+
+/* Grille du header */
+#topbar {
+    display: grid;
+        grid-template-columns: 19% auto 80%;
+        background-color: #9D9D9D;
+}
+/* logo du header */
+header section#topbar img#logo-header {
+    width: 100%;
+    padding-top: 12.5%;
+    padding-left: 6.7%;
+}
+header section#topbar nav {
+    text-align: center;
+    padding-left: 2%;
+}
+/* modification des boutons */
+header section#topbar nav.menu-nav-header ul li.btn-nav-header {
+    display: inline-block;
+    list-style-type: none;
+    padding: 4%;
+    background-color: #4E4E4E;
+    transition: 0.3s;
+    font-size: 12px;
+}
+/* modif. couleur bouton au survol */
+header section#topbar nav.menu-nav-header ul li.btn-nav-header:hover {
+    background-color: #ea4f2e;
+    transform: scale(1.2);
+}
+header section#topbar nav.menu-nav-header ul li.btn-nav-header a:hover {
+    color: #4E4E4E;
+}
+/* modif. décoration et couleur liens du header */
+header section#topbar nav.menu-nav-header ul li.btn-nav-header a{
+    text-decoration: none;
+    color: white;
+}   
+/* modif. placement du ul dans la case de la grille du header */
+header section#topbar nav.menu-nav-header ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 5px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/**/ /**/ /* FOOTER */ /**/ /**/
+
+/* socket */
+#socket {
+    text-align: center;
+    background-color: #9D9D9D;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/**/ /**/ /* MAIN */ /**/ /**/
+
+/* PAGE D'ACCUEIL */
+main section div p {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+/* PRODUITS */
+main section.nos-produits div h2, main section.nos-produits div p {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+main section.nos-produits {
+    background-color: #ededed;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/**/ /**/ /* PAGE du MORPION */ /**/ /**/
+
