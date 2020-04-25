@@ -1,4 +1,9 @@
 @media screen and (min-width: 370px){
+    /* logo du header */
+    header section#topbar img#logo-header {
+        width: 125%;
+        padding-top: 15%;
+    }
     /* modification des boutons */
     header section#topbar nav.menu-nav-header ul li.btn-nav-header {
         font-size: 14px;
@@ -43,7 +48,7 @@
     }
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 95%;
+        width: 125%;
     }
 }
 
@@ -58,6 +63,10 @@
 }
 
 @media screen and (min-width: 600px){
+    /* logo du header */
+    header section#topbar img#logo-header {
+        width: 110%;
+    }
     /* modification des boutons */
     header section#topbar nav.menu-nav-header ul li.btn-nav-header {
         font-size: 19px;
@@ -96,14 +105,26 @@
     }
     header section#topbar nav {
         padding-left: 30%;
+        padding-top: 2.5%;
     }
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 99%;
-        padding-top: 1%;
-        padding-left: 1%;
-        padding-right: 1%;
-        padding-bottom: 1%;
+        width: 108%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    /* modification des boutons */
+    header section#topbar nav.menu-nav-header ul li.btn-nav-header {
+        font-size: 20px;
+    }
+    header section#topbar nav {
+        padding-left: 30%;
+        padding-top: 1.7%;
+    }
+    /* logo du header */
+    header section#topbar img#logo-header {
+        width: 100%;
     }
 }
 
@@ -113,17 +134,38 @@
     header section#topbar nav.menu-nav-header ul li.btn-nav-header {
         font-size: 20px;
     }
-     /* Emplacement des boutons */
+    /* Emplacement des boutons */
     header section#topbar nav {
         padding-left: 45%;
+    }
+    /* logo du header */
+     header section#topbar img#logo-header {
+        width: 99%;
+        padding-top: 2.5%;
+        padding-left: 2.5%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    /* logo du header */
+    header section#topbar img#logo-header {
+        width: 98%;
+        padding-top: 2%;
+        padding-left: 2%;
     }
 }
 
 @media screen and (min-width: 950px){
-     /* Emplacement des boutons */
+    /* Emplacement des boutons */
     header section#topbar nav {
         padding-left: 45%;
         padding-top: 1.25%;
+    }
+    /* logo du header */
+    header section#topbar img#logo-header {
+        width: 98%;
+        padding-top: 0%;
+        padding-left: 0%;
     }
 }
 
