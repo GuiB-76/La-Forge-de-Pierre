@@ -43,11 +43,7 @@
     }
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 100%;
-        padding-top: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 5%;
+        width: 95%;
     }
 }
 
@@ -103,7 +99,7 @@
     }
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 100%;
+        width: 99%;
         padding-top: 1%;
         padding-left: 1%;
         padding-right: 1%;
@@ -112,14 +108,14 @@
 }
 
 @media screen and (min-width: 850px){
+
     /* modification des boutons */
     header section#topbar nav.menu-nav-header ul li.btn-nav-header {
         font-size: 20px;
     }
      /* Emplacement des boutons */
     header section#topbar nav {
-        padding-left: 38%;
-        padding-top: 2%;
+        padding-left: 45%;
     }
 }
 
@@ -127,7 +123,7 @@
      /* Emplacement des boutons */
     header section#topbar nav {
         padding-left: 45%;
-        padding-top: 2.5%;
+        padding-top: 1.25%;
     }
 }
 
@@ -135,14 +131,14 @@
      /* Emplacement des boutons */
     header section#topbar nav {
         padding-left: 50%;
-        padding-top: 3.5%;
+        padding-top: 1.75%;
     }
 }
 
 @media screen and (min-width: 1150px){
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 75%;
+        width: 99%;
     }
      /* Emplacement des boutons */
     header section#topbar nav {
@@ -154,7 +150,7 @@
 @media screen and (min-width: 1300px){
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 75%;
+        width: 99%;
     }
      /* Emplacement des boutons */
     header section#topbar nav {
@@ -166,7 +162,7 @@
 @media screen and (min-width: 1400px){
     /* logo du header */
     header section#topbar img#logo-header {
-        width: 75%;
+        width: 99%;
     }
      /* Emplacement des boutons */
     header section#topbar nav {
